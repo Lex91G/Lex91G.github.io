@@ -1,0 +1,48 @@
+body{
+	background-color:green;
+}
+h1{
+	font-size:40px;
+	font-weight: bold;
+	color: yellow;
+}
+h2{
+	font-size:20;
+}
+h3{
+	font-size:40px;
+	font-weight: bold;
+	color: yellow;
+}
+h4{
+	font-size:25px;
+}
+h5{
+	font-size:40px;
+	font-weight: bold;
+	color: yellow;
+}
+h6{
+	font-size:24px;
+}
+.imageRight{
+		float: right;
+	}
+.textLeft{
+	float: left;
+}
+.footer{
+	clear: left;
+
+}
+div{
+	font-size:12px;
+}
+p{
+	font-size:30px;
+	color:black;
+	font-weight:initial;
+}
+footer{
+	font-size:10px;
+}

@@ -1,0 +1,56 @@
+body{
+	background-color:green;
+}
+	h1{
+		color: yellow;
+		font-size:80px;
+	}
+	h2{
+		color:yellow;
+		font-size:36px;
+	}
+	h3{
+		font-size:20px;
+		font-weight:bold;
+	}
+	tr{
+		font-size:20px;
+		color: black;
+	}
+	h4{
+		color:yellow;
+		font-size:36px;
+	}
+	h5{
+		font-size:20px;
+		color: black;
+	}
+	h6{
+		font-size: 36px;
+		color:yellow;
+	}
+
+	h7{
+		color: black;
+		font-size:20px;
+	}
+	.colorClass{
+		color: white;
+	}
+.boldClass{
+	font-weight:bold;
+}
+#bigID{
+	font-size:36px;
+}	
+
+#smallID{
+	font-size:22px;
+}
+
+
+
+  <!-comment-->
+   Make sure you desktop style
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head><center>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">	
+	<nav class="navbar navbar-inverse">
+	<ul class="nav navbar-nav">
+  <li><a class="active" href="hellomates_index.html">Home</a></li>
+  <li><a href="schedule_index.html">Schedule</a></li>
+  <li><a href="magic_moments_index.html">Magic Moments</a></li>
+  <li><a href="superbowl_index.html">Predictions of Superbowl</a></li></ul>
+</nav>
+		
+	</head>
+	<body>
+	<form action="hellomates_index.html">
+	<fieldset>
+	<legend class="boldClass"><font size="7" color="black">Are you a football fan?</font></legend><form name = "quizQ1">
+	
+	
+<div><input type = "radio" name = "rad1" onclick = "getAnswer('a')"> Yes  <br>
+<input type = "radio" name = "rad1" onclick = "getAnswer('b')"> No <br>
+<script type = "text/javascript">
+
+function getAnswer(input) {
+if (input == "a") {alert ("Great lets begin")}
+else {alert ("Wrong answer, please try again...")}
+}
+</script>
+
+<legend class="boldClass"><font size="7" color="black"> Then you know the packers are the best team?</font></legend><form name = "quizQ1">
+
+<input type = "radio" name = "rad1" onclick = "getAnswer('a')"> Yes  <br>
+
+<input type = "radio" name = "rad1" onclick = "getAnswer('b')"> No <br>
+<script type = "text/javascript">
+
+function getAnswer(input) {
+if (input == "a") {alert ("Great, click submit to continue")}
+else {alert ("Get off this site")}
+}
+
+</script>
+	
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+	</fieldset>
+	</form></center>
+
+
+
+		
+	</body>
+</html>
